@@ -6,6 +6,6 @@
     "install-dependencies": {
       "name": "Install Dependencies",
       "command": "yarn"
-    },
+    }
   }
 }
