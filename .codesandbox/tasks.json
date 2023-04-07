@@ -1,16 +1,11 @@
 // https://codesandbox.io/docs/learn/repositories/tasks
 {
   "$schema": "https://codesandbox.io/schemas/tasks.json",
-  "setupTasks": ["yarn install"],
+  "setupTasks": ["yarn"],
   "tasks": {
     "install-dependencies": {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "yarn"
     },
-    "start-app": {
-      "name": "Run Dev Server",
-      "command": "yarn watch",
-      "runAtStart": true
-    }
   }
 }
