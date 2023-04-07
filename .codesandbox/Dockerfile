@@ -1,9 +1,9 @@
 FROM node:latest
 
-WORKDIR /app
-
 COPY package*.json ./app
 COPY . .
+
+WORKDIR /app
 
 # Install dependencies
 RUN yarn
