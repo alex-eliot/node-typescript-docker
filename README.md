@@ -1,7 +1,15 @@
-# A Node TypeScript starter kit for docker
+# A Node TypeScript starter kit for codesandbox and docker
 
-To run, simply execute:
+Run locally:
+```bash
+npm i -g yarn
+yarn
+yarn watch
+```
 
-`docker-compose up`
+Run on docker:
+```
+docker-compose up
+```
 
 *This project is meant for CodeSandbox*
